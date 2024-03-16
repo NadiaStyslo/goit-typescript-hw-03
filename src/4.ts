@@ -30,7 +30,7 @@ class Person {
 abstract class House {
   door: boolean;
   key: Key;
-  tenants: Person[];
+  tenants: Person[] = [];
   constructor(door: boolean, key: Key) {
     door: false;
     key: Key;
