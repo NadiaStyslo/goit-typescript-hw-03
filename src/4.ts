@@ -34,6 +34,7 @@ abstract class House {
   constructor(door: boolean, key: Key) {
     door: false;
     key: Key;
+    tenants: [];
   }
 
   comeIn(person: Person): void {
